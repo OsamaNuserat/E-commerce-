@@ -126,8 +126,11 @@ nav{
     justify-content: flex-end;
 }
 .nav-icon a{
-    margin-left: 13px;
+    margin-left: 25px;
     color: #000;
+}
+.nav-icon a:hover {
+    color: #ff2020;
 }
 label,input{
     display: none;
