@@ -71,6 +71,10 @@
    .img-single:nth-child(3) .gallery-col{
     flex-direction: row;
    }
+   /* popular */
+   .single-popular{
+    width: 45%;
+   }
 }
 
 @media screen and (max-width:575px){
@@ -109,6 +113,12 @@
 .img-single,.img-single:nth-child(1){
   width: 100%;
 }
-
+/* popular */
+.single-popular{
+  width: 100%;
+}
+.popular .row{
+  flex-direction: column;
+}
 }
 
